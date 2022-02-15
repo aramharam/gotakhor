@@ -1,0 +1,107 @@
+body {
+	color: #EADAB1;
+	background: #035454;
+	font-size: large;
+	max-width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 3px solid #F0B044;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
+	padding-top: 20px;
+}
+
+a, nav, header {
+	text-align: center
+}
+
+footer { text-align: center
+}
+
+h1 {
+	text-align: center;
+	animation: animate 1s ease-in-out infinite alternate;
+}
+
+h6 {
+	text-align: left;
+}
+
+h1 {
+	color: #F0B044;
+}
+
+p, li {
+	color: #EADAB1;
+   font-family: 'Allison', cursive;
+   font-family: 'Nunito', sans-serif;
+}
+
+h6 {
+	color: #EADAB1;
+font-family: 'Allison', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Nunito', sans-serif;
+}
+
+h3 {
+	color: #F0B044;
+}
+
+h3 {
+	color: #D2859A;
+}
+
+summary {
+	color: #EADAB1;
+}
+
+@keyframes animate{
+	from{
+		text-shadow: 0 0 3px #F0B044;
+	}
+	to{
+		text-shadow: 0 0 5px #F0B044,
+				0 0 1px #F0B044;
+	}
+}
+
+img {
+	width: 250px;
+  	border: 2px solid #F0B044;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+/*img:hover { */
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+ /* animation: shake .5s;*/
+
+  /* When the animation is finished, start again */
+  /*animation-iteration-count: infinite;*/
+/*}*/
+/*@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}*/
+
+
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
