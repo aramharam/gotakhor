@@ -1,3 +1,4 @@
+
 body {
 	color: #EADAB1;
 	background: #035454;
@@ -13,44 +14,60 @@ body {
 }
 
 a, nav, header {
-	text-align: center
+	font-family: 'Roboto Serif', sans-serif;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 10px;
 }
 
-footer { text-align: center
+footer {
+	text-align: center
 }
 
 h1 {
 	text-align: center;
 	animation: animate 1s ease-in-out infinite alternate;
+	color: #F0B044;
+	font-family: 'Roboto Serif', sans-serif;
+}
+
+h2 {
+	color: #CC8397;
+	font-family: 'Gotu', sans-serif;
+}
+
+h3.gotu-eng {
+	margin:0;
+	line-height:0px;
+	font-family: 'Gotu', sans-serif;
+}
+
+h3.gotu {
+	color: #CC8397;
+	font-family: 'Gotu', sans-serif;
+}
+
+h4 {
+	color: #EADAB1;
+	font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+	color: #EADAB1;
+	font-family: 'Rubik', sans-serif;
 }
 
 h6 {
 	text-align: left;
-}
-
-h1 {
-	color: #F0B044;
+	margin: 0;
+	line-height:35px;
+	font-family: 'Rubik', sans-serif;
+	color: #EADAB1;
 }
 
 p, li {
 	color: #EADAB1;
-   font-family: 'Allison', cursive;
-   font-family: 'Nunito', sans-serif;
-}
-
-h6 {
-	color: #EADAB1;
-font-family: 'Allison', cursive;
-font-family: 'Kalam', cursive;
-font-family: 'Nunito', sans-serif;
-}
-
-h3 {
-	color: #F0B044;
-}
-
-h3 {
-	color: #D2859A;
+	font-family: 'Roboto Serif', sans-serif;
 }
 
 summary {
@@ -65,16 +82,6 @@ summary {
 		text-shadow: 0 0 5px #F0B044,
 				0 0 1px #F0B044;
 	}
-}
-
-img {
-	width: 250px;
-  	border: 2px solid #F0B044;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
 }
 
 /*img:hover { */
@@ -99,9 +106,56 @@ img {
 }*/
 
 
+img {
+  	border: 2px solid #F0B044;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: auto;
+}
+
 .avatar {
   vertical-align: middle;
   width: 100px;
   height: 100px;
   border-radius: 50%;
+}
+
+details > summary {
+        font-family: 'Rubik', bold;
+	transition: transform 0.3s ease;
+	padding-left: 0.5rem;
+}
+
+
+summary {
+	background-color: #CC8397;
+}
+
+.copy {
+	margin: 0px;
+}
+
+.curse {
+	font-family: 'Cedarville Cursive';
+	line-height:0px;
+}
+
+.error-404  {
+	text-align: center;
+}
+
+.error-404-p {
+	text-align: center;
+}
+
+.container {
+	padding: 1em;
+	column-count: 2;
+}
+
+.impact {
+	width: 100%;
+	margin-bottom: 1em;
 }
