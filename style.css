@@ -45,6 +45,8 @@ h3.gotu-eng {
 h3.gotu {
 	color: #CC8397;
 	font-family: 'Gotu', sans-serif;
+	line-height: 0px;
+	padding-top: 25px;
 }
 
 h4 {
