@@ -68,10 +68,12 @@ h6 {
 p, li {
 	color: #EADAB1;
 	font-family: 'Roboto Serif', sans-serif;
+	font-size: 15px;
 }
 
 summary {
 	color: #EADAB1;
+	font-size: 15px;
 }
 
 @keyframes animate{
@@ -126,11 +128,13 @@ details > summary {
         font-family: 'Rubik', bold;
 	transition: transform 0.3s ease;
 	padding-left: 0.5rem;
+	font-size: 15px;
 }
 
 
 summary {
 	background-color: #CC8397;
+	font-size: 15px;
 }
 
 .copy {
